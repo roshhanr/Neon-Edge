@@ -1,5 +1,6 @@
 import React, { useState } from "react";
-import { LuMenu, LuX } from "react-icons/lu";
+// Importing Material Design icons instead of broken 'react-icons/lu'
+import { MdMenu, MdClose } from "react-icons/md";
 
 function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -45,7 +46,7 @@ function Navbar() {
           onClick={() => setIsOpen(!isOpen)}
           className="md:hidden text-2xl sm:text-3xl text-white"
         >
-          {isOpen ? <LuX /> : <LuMenu />}
+          {isOpen ? <MdClose /> : <MdMenu />}  {/* Changed icons */}
         </button>
       </div>
 
