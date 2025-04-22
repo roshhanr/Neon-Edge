@@ -1,9 +1,9 @@
 import React, { useState } from "react";
-// Importing Material Design icons instead of broken 'react-icons/lu'
 import { MdMenu, MdClose } from "react-icons/md";
 
 function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
+
   const navLinks = [
     { label: "Services", href: "#" },
     { label: "Our Work", href: "#" },
@@ -16,7 +16,7 @@ function Navbar() {
     <nav className="sticky top-0 z-50 bg-zinc-900/70 backdrop-blur-sm">
       <div className="container mx-auto flex items-center justify-between px-4 py-3 sm:px-6 md:px-20 md:py-5">
         
-        {/* Editable Logo Text */}
+        {/* Logo */}
         <h1
           contentEditable
           suppressContentEditableWarning
@@ -25,8 +25,8 @@ function Navbar() {
           Neon Edge
         </h1>
 
-        {/* Desktop Links */}
-        <div className="hidden md:flex gap-6 lg:gap-10">
+        {/* Desktop Navigation */}
+        <div className="hidden md:flex items-center gap-6 lg:gap-10">
           {navLinks.map((item, idx) => (
             <a
               key={idx}
@@ -41,16 +41,17 @@ function Navbar() {
           ))}
         </div>
 
-        {/* Mobile Menu Button */}
+        {/* Mobile Menu Toggle */}
         <button
           onClick={() => setIsOpen(!isOpen)}
-          className="md:hidden text-2xl sm:text-3xl text-white"
+          aria-label="Toggle menu"
+          className="md:hidden text-3xl text-white focus:outline-none"
         >
-          {isOpen ? <MdClose /> : <MdMenu />}  {/* Changed icons */}
+          {isOpen ? <MdClose /> : <MdMenu />}
         </button>
       </div>
 
-      {/* Mobile Menu */}
+      {/* Mobile Navigation */}
       {isOpen && (
         <div className="md:hidden bg-zinc-900/90 backdrop-blur-sm">
           <div className="flex flex-col items-center gap-6 py-6">
