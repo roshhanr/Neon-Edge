@@ -12,7 +12,7 @@ Neon Edge is a smooth-scrolling, animation-rich frontend experience developed us
 
 ## ⚙️ Tech Stack
 
-- [React](https://img.shields.io/badge/green%20sock-88CE02?style=flat&logo=greensock&logoColor=white)
+-  (https://img.shields.io/badge/green%20sock-88CE02?style=flat&logo=greensock&logoColor=white)
 - ⚡ [Vite](https://vitejs.dev/)
 - 🌀 [GSAP](https://greensock.com/gsap/)
 - 🎞️ [Framer Motion](https://www.framer.com/motion/)
