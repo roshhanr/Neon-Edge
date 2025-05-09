@@ -1,13 +1,50 @@
-# React + Vite
+# 🌐 Neon Edge
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A fully responsive and animated website inspired by the award-winning OFFL site. The moment I discovered it, I was truly excited to recreate it myself. Despite running into numerous bugs and challenges, I stayed committed and brought my vision to life using modern web technologies.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📝 Description
 
-## Expanding the ESLint configuration
+Neon Edge is a smooth-scrolling, animation-rich frontend experience developed using React. The project was built with a focus on motion and interaction, blending cutting-edge design with clean UI.
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-"# Neon-Edge" 
+---
+
+## ⚙️ Tech Stack
+
+- [React](https://img.shields.io/badge/green%20sock-88CE02?style=flat&logo=greensock&logoColor=white)
+- ⚡ [Vite](https://vitejs.dev/)
+- 🌀 [GSAP](https://greensock.com/gsap/)
+- 🎞️ [Framer Motion](https://www.framer.com/motion/)
+- 🎨 [Tailwind CSS](https://tailwindcss.com/)
+
+---
+
+## 🧠 Challenges I Faced
+
+- Complex animation sequencing and triggers
+- Pages occasionally not scrolling as expected
+- SVG rendering issues on different devices
+- Technical bugs during integration of GSAP and Framer Motion
+
+But I didn’t give up. I kept debugging and learning — and successfully completed the project. I plan to evolve this into a realtime full-stack application in future iterations.
+
+---
+
+## 🚀 Future Goals
+
+- Convert into a full-stack project with backend integration
+- Add authentication and CMS features
+- Deploy on scalable cloud infrastructure
+
+---
+
+## ✨ Developed & Designed by Roshan R
+
+---
+
+## 📸 Preview
+
+Coming soon…
+
+---
