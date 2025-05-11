@@ -12,12 +12,12 @@ Neon Edge is a smooth-scrolling, animation-rich frontend experience developed us
 
 ## ⚙️ Tech Stack
 
--  (https://img.shields.io/badge/green%20sock-88CE02?style=flat&logo=greensock&logoColor=white)
-- ⚡ [Vite](https://vitejs.dev/)
-- 🌀 [GSAP](https://greensock.com/gsap/)
-- 🎞️ [Framer Motion](https://www.framer.com/motion/)
-- 🎨 [Tailwind CSS](https://tailwindcss.com/)
-![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=flat&logo=html5&logoColor=white)
+![React](https://img.shields.io/badge/react-%2320232a.svg?style=flat&logo=react&logoColor=%2361DAFB)
+![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=flat&logo=tailwind-css&logoColor=white)
+![Green Sock](https://img.shields.io/badge/green%20sock-88CE02?style=flat&logo=greensock&logoColor=white)
+![Vite](https://img.shields.io/badge/vite-%23646CFF.svg?style=flat&logo=vite&logoColor=white)
+![Framer Motion](https://img.shields.io/badge/framer--motion-black?style=flat&logo=framer&logoColor=white)
+
 ---
 
 ## 🧠 Challenges I Faced
