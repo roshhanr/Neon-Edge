@@ -17,7 +17,7 @@ Neon Edge is a smooth-scrolling, animation-rich frontend experience developed us
 - 🌀 [GSAP](https://greensock.com/gsap/)
 - 🎞️ [Framer Motion](https://www.framer.com/motion/)
 - 🎨 [Tailwind CSS](https://tailwindcss.com/)
-
+![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=flat&logo=html5&logoColor=white)
 ---
 
 ## 🧠 Challenges I Faced
